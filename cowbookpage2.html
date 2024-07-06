@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cbstyle.css">
+    <style>
+        body {
+            background-image: url('./bcwallpaperfinal2.png'); 
+            background-size: cover; /* makes the image cover the entire background */
+            background-repeat: no-repeat; /* prevents the image from repeating */
+          
+        }
+        .profile-button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+        .button2
+        {
+            padding :3px;
+        }
+        .button
+        {
+            background-color: #ebdcdc; /* Green background */
+            border: none; /* Remove borders */
+            color: rgb(0, 0, 0); /* White text */
+            padding:px;
+            text-align: center; /* Centered text */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make the link look like a button */
+            font-size: 36px; /* Set a font size */
+            margin: 4px 2px; /* Some margin */
+            cursor: pointer; /* Pointer/hand icon */
+            border-radius: 18px; /* Rounded corners */
+        }
+        .topcorner {
+            position: absolute;
+            top: 5%;
+            left: 85%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            margin-left: 50px 
+        }
+        
+        .topcorner2 {
+            position: absolute;
+            top: 5%;
+            left: 90%;
+            transform: translate(-50%, -50%);
+            z-index: 1; 
+            margin-left: 50px;
+        }
+        .center {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; 
+        }
+        .large-text {
+            font-size: 55px;
+        }
+        .inputalign
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;  
+        }
+        .addalign
+        {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;   
+        }
+        .cowalign
+        {
+            position: absolute;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;    
+        }
+    </style>
+</head>
+<body>
+    <div class="topcorner">
+    
+           <a href="http://127.0.0.1:5500/cowbookprofile.html"><img src="./myphotocb.jpg"alt="Profile" class="profile-button"></a> 
+       
+    </div>
+    <div class="topcorner2">SANDHU DAIRYFARM</div>
+    
+    <div class="center">
+        <span class="large-text">
+            COWBOOK
+        </span>
+        
+        <br>
+        <br>
+
+       
+        <br><br>
+    </div>
+    <span class="inputalign">
+        <input type="text" placeholder="name/serial no" 
+    style="width: 350px; height: 25px; border: 6px solid #5f4b4b; border-radius: 25px;
+     padding: 10px; font-size: 26px; background-color: #ebdcdc; color: #020202;">
+          </span> 
+    <div>
+        <br>
+        <br>
+<span class="addalign" onclick="window.location.href='http://127.0.0.1:5500/cowbookpage3.html';">
+     <button class="button" type="button" > +</button>
+        
+        <br>
+        <br>
+        <br>
+        
+    </span>
+    <span class="cowalign"> Add cow </span>
+    </div>
+</body>
+</html>

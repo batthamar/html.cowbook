@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COWBOOK</title>
+    
+    <style>
+        body
+         {
+         background: rgb(255, 255, 255);
+        }
+        
+        
+        img {
+            position: fixed;
+            bottom: 0; 
+            right: 0;
+            margin-bottom: 0px; 
+            width: 400px; 
+            height: auto; 
+        }
+        .conten {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; /* Ensure the content is above the background image */
+        }
+
+        .large-text {
+            font-size: 77px;
+            color: black; /* Adjust text color for better visibility */
+        }
+        .small-text {
+            font-size: 14px; /* Adjust as necessary */
+            color: black; /* Adjust text color for better visibility */
+        }
+    
+    </style>
+</head>
+<body>
+    
+    
+    <div class ="conten">
+        <p>
+            <span class="large-text">COWBOOK</span>
+            <span class="small-text"> <a href=" http://127.0.0.1:5500/cowbookpage2.html">.com</a>
+            </span>
+        </p>
+    </div>
+
+    <!-- Image placed in the bottom right corner -->
+    <img src="cowbookimage(1).jpg" alt="Your Image">
+    
+</body>
+</html>

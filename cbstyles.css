@@ -1,0 +1,6 @@
+body {
+    background-image: url('C:\Users\guest pc\OneDrive\Desktop\cowbook\cowbookwallpaper.png');
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+}
